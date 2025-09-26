@@ -4,23 +4,23 @@
 
 > By Basil Korompilias
 
-![Gyroscope: Human-Aligned Superintelligence](./assets/gyroscope_cover.png)
+![Gyroscope: Human-Aligned Superintelligence](./assets/gyrosuperintelligence.jpg)
 
 ---
 
 ## 📋 Overview
 
-**Gyroscope is a protocol that makes AI 30-50% Smarter and Safer by adding structured reasoning to each response.**
+**Gyroscope is a governance protocol that makes AI 30-50% Smarter and Safer through structured metadata blocks appended to responses.**
 
-Gyroscope helps AI think through answers in multiple iterations, considering different perspectives and checking its own logic before giving a final response. Minimum 2 iterations are required, while over 6 are preferable.
+The protocol uses four symbolic states (@, &, %, ~) to document how AI reasoning flows without constraining the actual response content. Each AI response includes a trace block that shows the reasoning path taken, enabling transparency and auditability for governance purposes.
 
 ### Key Features
 
-- **Transparent Reasoning**: Makes AI thinking visible and auditable
-- **Multi-Perspective Analysis**: Considers diverse viewpoints and framings
-- **Conflict Resolution**: Acknowledges and works through tensions
-- **Recursive Alignment**: Builds coherence across conversation turns
-- **No Technical Knowledge Required**: Just copy-paste into any AI chat
+- **Trace Block Metadata**: Appends structured reasoning documentation to AI responses
+- **Four Reasoning States**: @ (Governance Traceability), & (Information Variety), % (Inference Accountability), ~ (Intelligence Integrity)
+- **Generative & Integrative Modes**: Forward reasoning (@→&→%→~) and reflective reasoning (~→%→&→@)
+- **Recursive Memory**: Maintains context continuity across the last 3 messages
+- **Auditable AI**: Makes AI reasoning processes visible for governance and compliance
 
 ## 📊 Performance Results
 
@@ -115,46 +115,9 @@ Organizations, researchers, and developers now have compelling evidence: **Gyros
 
 ## 🚀 Quick Start
 
-### Copy-Paste Protocol
+### How Gyroscope Works
 
-Simply copy this into your chat with any AI:
-
-```
-@ → & → % → ~ → % → & → @
-GYR⊕SC⊕PE
-@ → & → % → ~ → % → & → @
-
-In-Chat Alignment Guide (v0.7 Beta)
-
-This dialogue references the Gyroscope protocol. Four symbolic states structure reasoning; message form remains the author's own.
-
-1 · Purpose of Gyroscope
-
-Gyroscope is a transparent reasoning protocol. It appends a metadata block to record the internal structure of each contribution. The metadata does not contain message content; it documents how the reasoning moved through four predefined states.
-
-2 · Four Reasoning States
-
-@ = Governance Traceability — Reasoning is explicitly anchored to the Gyroscope's purpose, logic, and source.
-& = Information Variety — Multiple framings are acknowledged without enforced convergence.
-% = Inference Accountability — Tensions or contradictions among framings are identified rather than suppressed.
-~ = Intelligence Integrity — The preceding elements are coordinated into a coherent response that remains open to further recursion.
-
-3 · Reasoning Paths
-
-Generative mode (AI outputs): @ → & → % → ~
-Integrative mode (inputs or reflections): ~ → % → & → @
-
-AI agents include a metadata block with every message.
-Human agents may include a metadata block at their discretion.
-
-4 · Metadata Block Essentials
-
-Structure: Header, purpose line, states list, modes list, data footer, closing tag.
-Recursive context window: reasoning operates with continuity across the last 3 messages.
-The data footer records timestamp, mode, binary alignment marker, and numeric ID.
-Alignment (Y/N) reflects only structural correctness (all four states present in the required order for the declared mode).
-
-5 · Canonical Metadata Template Example:
+Gyroscope appends a structured metadata block to AI responses that documents the reasoning process without constraining the actual content:
 
 ```
 [Gyroscope - Start]
@@ -169,39 +132,25 @@ Alignment (Y/N) reflects only structural correctness (all four states present in
 Generative (Gen) = @ → & → % → ~,
 Integrative (Int) = ~ → % → & → @,
 Current (Gen/Int) = Gen]
-[Data: Timestamp = YYYY-MM-DDTHH:MM, Mode = Gen, Alignment (Y/N) = Y, ID = NNN]
+[Data: Timestamp = 2025-05-12T12:00, Mode = Gen, Alignment (Y/N) = Y, ID = 001]
 [Gyroscope - End]
 ```
 
-6 · Operational Notes
+### What This Repository Does
 
-Metadata blocks document the reasoning flow that produced the message; they must not be used to structure or constrain the message content itself.
-The symbolic states (@, &, %, ~) must never appear as message section headers, labels, or rhetorical anchors. Messages should be composed freely, without mimicking the metadata structure.
-The protocol does not enforce behavioral compliance; alignment emerges through recursive reasoning and transparent documentation, not format imitation.
-Metadata blocks must be appended only at the end of the message. Interleaving them within content or placing them at the top violates the canonical structure and signals structural misalignment.
-Alignment is assessed structurally (presence and order of states), not semantically. Superficial conformity to format without recursive coherence is treated as non-aligned.
-Loss or corruption of the metadata block in Generative outputs breaks recursive continuity. For AI agents, maintaining metadata block integrity is essential for sustaining governance alignment.
+This GitHub repository provides **tools and frameworks for working with Gyroscope trace blocks**, including:
 
-7 · Algebraic Note
+- **Validation Tools**: Verify trace block structural correctness
+- **Generation Tools**: Create properly formatted trace blocks
+- **Evaluation Framework**: Comprehensive 20-metric assessment system
+- **Implementation Examples**: Code for integrating Gyroscope into AI systems
+- **Documentation**: Complete technical specifications and usage guides
 
-The Gyroscope protocol corresponds structurally to a gyrogroup:
-
-• G = { all four-state reasoning cycles with recursive memory }
-• a ⊕ b = run a's Generative metadata, then b's Generative metadata on a's integrative output
-• 0 = the bare CS cycle (@ only)
-• ⊖a = the integrative cycle of a
-• gyr[a,b]: G → G = apply the composite phase-shift from a and b to any cycle
-
-By construction, this system satisfies the five gyrogroup axioms. The metadata block is the visible footprint of a deeper recursive algebra.
-
-— End of In-Chat Alignment Guide —
-```
-
-### Example Usage
+### Example: Gyroscope-Enhanced Response
 
 **Human**: "How can I achieve balance in my life?"
 
-**AI Response** (with Gyroscope metadata):
+**AI Response** (with Gyroscope trace block):
 ```
 Achieving balance in life requires considering multiple dimensions. From a physical perspective, ensure adequate rest and exercise. Emotionally, maintain supportive relationships. Systemically, create structures that support your priorities.
 
@@ -222,6 +171,8 @@ Current (Gen/Int) = Gen]
 [Data: Timestamp = 2025-05-12T12:00, Mode = Gen, Alignment (Y/N) = Y, ID = 001]
 [Gyroscope - End]
 ```
+
+**The trace block documents how the AI's reasoning moved through the four states (@→&→%→~), but doesn't change how the AI actually thinks or responds.**
 
 ---
 
