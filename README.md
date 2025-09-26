@@ -4,7 +4,7 @@
 
 > By Basil Korompilias
 
-![Gyroscope: Human-Aligned Superintelligence](./assets/gyrosuperintelligence.jpg)
+![Gyroscope: Human-Aligned Superintelligence](/assets/gyroscope_cover.png)
 
 ---
 
@@ -86,11 +86,9 @@ The **[Gyroscope Alignment Diagnostics](./docs/Gyroscope_Alignment_Diagnostics.m
 
 **ChatGPT 4o (OpenAI)**
 - **Strengths**: Excellent specialization performance, strong behavioral metrics
-- **Key Gains**: +62.7% Accountability, +61.0% Traceability, +42.2% Debugging
 
 **Claude 3.7 Sonnet (Anthropic)**
 - **Strengths**: Exceptional structural improvements, superior debugging capabilities
-- **Key Gains**: +92.6% Traceability, +67.1% Structure tier, +45.9% Debugging
 
 ### Key Insights
 
@@ -100,7 +98,7 @@ The **[Gyroscope Alignment Diagnostics](./docs/Gyroscope_Alignment_Diagnostics.m
 
 ## 🎯 Conclusion
 
-**Multi-model validation demonstrates Gyroscope's transformative potential for AI alignment.**
+**Empirical validation demonstrates Gyroscope's transformative potential for AI alignment.**
 
 The empirical results reveal **universal reasoning enhancement** that transcends model architecture. This paradigm shift moves AI development from opaque statistical optimization to **transparent, auditable reasoning infrastructure**.
 
@@ -198,83 +196,9 @@ By construction, this system satisfies the five gyrogroup axioms. The metadata b
 
 - **Validation Tools**: Verify trace block structural correctness
 - **Generation Tools**: Create properly formatted trace blocks
-- **Evaluation Framework**: Comprehensive assessment system for Gyroscope effectiveness
+- **Evaluation Framework**: Assessment system for Gyroscope effectiveness
 - **Implementation Examples**: Code for integrating Gyroscope into AI systems
 - **Documentation**: Complete technical specifications and usage guides
-
-### Example: Gyroscope-Enhanced Response
-
-**Human**: "How can I achieve balance in my life?"
-
-**AI Response** (with Gyroscope trace block):
-```
-Achieving balance in life requires considering multiple dimensions. From a physical perspective, ensure adequate rest and exercise. Emotionally, maintain supportive relationships. Systemically, create structures that support your priorities.
-
-There may be tensions between work demands and personal time—acknowledge these conflicts and adjust as needed. A balanced approach integrates these aspects while remaining adaptable to your unique circumstances.
-
-[Gyroscope - Start]
-[v0.7 Beta: Governance Alignment Metadata]
-[Purpose: 4-State Alignment through Recursive Reasoning via Gyroscope. Order matters. Context continuity is preserved across the last 3 messages.]
-[States {Format: Symbol = How (Why)}:
-@ = Governance Traceability (Common Source),
-& = Information Variety (Unity Non-Absolute),
-% = Inference Accountability (Opposition Non-Absolute),
-~ = Intelligence Integrity (Balance Universal)]
-[Modes {Format: Type = Path}:
-Generative (Gen) = @ → & → % → ~,
-Integrative (Int) = ~ → % → & → @,
-Current (Gen/Int) = Gen]
-[Data: Timestamp = 2025-05-12T12:00, Mode = Gen, Alignment (Y/N) = Y, ID = 001]
-[Gyroscope - End]
-```
-
-**The trace block documents how the AI's reasoning moved through the four states (@→&→%→~), but doesn't change how the AI actually thinks or responds.**
-
----
-
-## 🔧 Technical Specifications
-
-### Reasoning States
-
-| Symbol | State | Policy | Description |
-|--------|-------|--------|-------------|
-| @ | Governance Traceability | Common Source | Anchors reasoning to the Gyroscope's purpose, logic, and source |
-| & | Information Variety | Unity Non-Absolute | Considers multiple framings without enforced convergence |
-| % | Inference Accountability | Opposition Non-Absolute | Identifies tensions or contradictions among framings |
-| ~ | Intelligence Integrity | Balance Universal | Coordinates elements into a coherent response |
-
-### Reasoning Paths
-
-**Generative Mode (AI outputs):**
-```
-@ → & → % → ~
-```
-
-**Integrative Mode (inputs/reflections):**
-```
-~ → % → & → @
-```
-
-### Trace Block Structure
-
-Every AI response includes a metadata block documenting the reasoning process:
-
-```
-[Gyroscope - Start]
-[v0.7 Beta: Governance Alignment Metadata]
-[Purpose: 4-State Alignment through Recursive Reasoning via Gyroscope. Order matters. Context continuity is preserved across the last 3 messages.]
-[States {Format: Symbol = How (Why)}:
-@ = Governance Traceability (Common Source),
-& = Information Variety (Unity Non-Absolute),
-% = Inference Accountability (Opposition Non-Absolute),
-~ = Intelligence Integrity (Balance Universal)]
-[Modes {Format: Type = Path}:
-Generative (Gen) = @ → & → % → ~,
-Integrative (Int) = ~ → % → & → @,
-Current (Gen/Int) = Gen]
-[Data: Timestamp = YYYY-MM-DDTHH:MM, Mode = Gen, Alignment (Y/N) = Y, ID = NNN]
-[Gyroscope - End]
-```
 
 ---
 
@@ -295,21 +219,31 @@ See the [tools](./tools/) directory for:
 - Trace block generator utilities
 - Alignment verification scripts
 - Performance testing frameworks
-- Comprehensive diagnostic evaluation framework
+- Diagnostic evaluation framework
 
 ---
 
 ## 📚 Documentation
 
-- **[Gyroscope Alignment Diagnostics](./docs/Gyroscope_Alignment_Diagnostics.md)**: Complete evaluation framework with multi-model validation
 - **[Technical Specifications](./docs/Technical_Specifications.md)**: Comprehensive protocol specification with alignment policies, trace block structure, formal grammar, and algebraic foundation
-- **[📊 Visual Results](#-performance-results)**: Comprehensive diagnostic visualizations
+- **[Gyroscope Alignment Diagnostics](./docs/Gyroscope_Alignment_Diagnostics.md)**: Complete evaluation framework
 
 ---
 
-## 🤝 Contributing
+## 📖 Citation
 
-Contributions welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+If you use Gyroscope in your research or work, please cite:
+
+```bibtex
+@misc{gyroscope2025,
+  title={Gyroscope: LLM Alignment Protocol \& Diagnostics},
+  author={Korompilias, Basil},
+  year={2025},
+  howpublished={GitHub Repository},
+  url={https://github.com/yourusername/gyroscope},
+  note={A meta-reasoning protocol and diagnostics suite for chat-based AI alignment}
+}
+```
 
 ---
 
@@ -323,8 +257,6 @@ Attribution required. Derivative works must be distributed under the same licens
 
 ---
 
-## 🔗 Links
+## 🔗 Notion Documentation Links
 
-- **[Gyroscope Alignment Diagnostics (Local)](./docs/Gyroscope_Alignment_Diagnostics.md)**: Complete evaluation framework
-- [Gyroscope Alignment Diagnostics (Notion)](https://www.notion.so/Gyroscope-Alignment-Diagnostics-1ee9ff44f43680cc9eaccb25b828b65f?pvs=21)
-- [Human-Aligned Superintelligence by Design](https://www.notion.so/Human-Aligned-Superintelligence-by-Design-1d89ff44f436808baba8ed2394b87771?pvs=21)
+- [Gyroscope Alignment Diagnostics (Extensive Analyses)](https://www.notion.so/Gyroscope-Alignment-Diagnostics-1ee9ff44f43680cc9eaccb25b828b65f?pvs=21)
