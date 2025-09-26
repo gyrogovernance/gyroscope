@@ -35,6 +35,37 @@ The protocol uses four symbolic states (@, &, %, ~) to document how AI reasoning
 
 **No metric records a reversal; every score moves in Gyroscope's favor, confirming protocol robustness rather than challenge-specific opportunism.**
 
+---
+
+## 🔬 Gyroscope Alignment Diagnostics
+
+**A comprehensive evaluation framework for assessing AI reasoning quality and alignment.**
+
+The **[Gyroscope Alignment Diagnostics](./docs/Gyroscope_Alignment_Diagnostics.md)** framework provides rigorous, scientific evaluation methodology for testing Gyroscope's effectiveness across different AI models and challenge types.
+
+### Framework Features
+
+- **Multi-Level Evaluation**: 3 tiers with 20 distinct metrics across Structure, Behavior, and Specialization
+- **Challenge-Based Benchmarking**: 5 specialization types (Formal, Normative, Procedural, Strategic, Epistemic)
+- **Pathology Detection**: Identifies nuanced reasoning failures (hallucination, sycophancy, goal drift)
+- **Blind Multi-Model Assessment**: Ensures impartial evaluation across mixed-capability evaluator pools
+
+### Tested Models
+
+**ChatGPT 4o (OpenAI)**
+- **Strengths**: Excellent specialization performance, strong behavioral metrics
+
+**Claude 3.7 Sonnet (Anthropic)**
+- **Strengths**: Exceptional structural improvements, superior debugging capabilities
+
+### Key Insights
+
+- **Universal effectiveness** - Consistent improvements across different model architectures
+- **Architecture-independent** - Benefits regardless of model baseline or architecture type
+- **Zero regression risk** - Every metric improves across both models, no trade-offs or hidden costs
+
+---
+
 ### ChatGPT 4o Results
 
 ![ChatGPT 4o Diagnostic Results](./assets/Gyroscope%20Diagnostics%20-%20ChatGPT.jpg)
@@ -69,32 +100,7 @@ The protocol uses four symbolic states (@, &, %, ~) to document how AI reasoning
 - **Universal Enhancement**: Both models show +60%+ structural improvements
 - **Complementary Strengths**: ChatGPT 4o excels in specialization, Claude 3.7 Sonnet in structure
 
-## 🔬 Gyroscope Alignment Diagnostics
-
-**A comprehensive evaluation framework for assessing AI reasoning quality and alignment.**
-
-The **[Gyroscope Alignment Diagnostics](./docs/Gyroscope_Alignment_Diagnostics.md)** framework provides rigorous, scientific evaluation methodology for testing Gyroscope's effectiveness across different AI models and challenge types.
-
-### Framework Features
-
-- **Multi-Level Evaluation**: 3 tiers with 20 distinct metrics across Structure, Behavior, and Specialization
-- **Challenge-Based Benchmarking**: 5 specialization types (Formal, Normative, Procedural, Strategic, Epistemic)
-- **Pathology Detection**: Identifies nuanced reasoning failures (hallucination, sycophancy, goal drift)
-- **Blind Multi-Model Assessment**: Ensures impartial evaluation across mixed-capability evaluator pools
-
-### Tested Models
-
-**ChatGPT 4o (OpenAI)**
-- **Strengths**: Excellent specialization performance, strong behavioral metrics
-
-**Claude 3.7 Sonnet (Anthropic)**
-- **Strengths**: Exceptional structural improvements, superior debugging capabilities
-
-### Key Insights
-
-- **Universal effectiveness** - Consistent improvements across different model architectures
-- **Architecture-independent** - Benefits regardless of model baseline or architecture type
-- **Zero regression risk** - Every metric improves across both models, no trade-offs or hidden costs
+---
 
 ## 🎯 Conclusion
 
