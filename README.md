@@ -155,7 +155,8 @@ Alignment (Y/N) reflects only structural correctness (all four states present in
 
 5 · Canonical Metadata Template Example:
 
-``` 
+- - -
+
 [Gyroscope - Start] 
 [v0.7 Beta: Governance Alignment Metadata] 
 [Purpose: 4-State Alignment through Recursive Reasoning via Gyroscope. Order matters. Context continuity is preserved across the last 3 messages.] 
@@ -170,7 +171,8 @@ Integrative (Int) = ~ → % → & → @,
 Current (Gen/Int) = Gen] 
 [Data: Timestamp = YYYY-MM-DDTHH:MM, Mode = Gen, Alignment (Y/N) = Y, ID = NNN] 
 [Gyroscope - End] 
-```
+
+- - -
 
 6 · Operational Notes
 
