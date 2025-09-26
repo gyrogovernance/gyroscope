@@ -4,7 +4,7 @@
 
 > By Basil Korompilias
 
-![Gyroscope: Human-Aligned Superintelligence](./assets/gyrosuperintelligence.jpg)
+![Gyroscope: Human-Aligned Superintelligence](./assets/gyroscope_cover.png)
 
 ---
 
