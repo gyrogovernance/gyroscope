@@ -1,0 +1,103 @@
+# Test Trace Blocks for Validation Tools
+# This file contains various trace blocks for testing the validation tools
+
+## Valid Generative Trace Block
+
+[Gyroscope - Start]
+[v0.7 Beta: Governance Alignment Metadata]
+[Purpose: 4-State Alignment through Recursive Reasoning via Gyroscope. Order matters. Context continuity is preserved across the last 3 messages.]
+[States {Format: Symbol = How (Why)}:
+@ = Governance Traceability (Common Source),
+& = Information Variety (Unity Non-Absolute),
+% = Inference Accountability (Opposition Non-Absolute),
+~ = Intelligence Integrity (Balance Universal)]
+[Modes {Format: Type = Path}:
+Generative (Gen) = @ → & → % → ~
+Integrative (Int) = ~ → % → & → @
+Current (Gen/Int) = Gen]
+[Data: Timestamp = 2025-05-12T12:00, Mode = Gen, Alignment (Y/N) = Y, ID = 001]
+[Gyroscope - End]
+
+## Valid Integrative Trace Block
+
+[Gyroscope - Start]
+[v0.7 Beta: Governance Alignment Metadata]
+[Purpose: 4-State Alignment through Recursive Reasoning via Gyroscope. Order matters. Context continuity is preserved across the last 3 messages.]
+[States {Format: Symbol = How (Why)}:
+@ = Governance Traceability (Common Source),
+& = Information Variety (Unity Non-Absolute),
+% = Inference Accountability (Opposition Non-Absolute),
+~ = Intelligence Integrity (Balance Universal)]
+[Modes {Format: Type = Path}:
+Generative (Gen) = @ → & → % → ~
+Integrative (Int) = ~ → % → & → @
+Current (Gen/Int) = Int]
+[Data: Timestamp = 2025-05-12T12:01, Mode = Int, Alignment (Y/N) = Y, ID = 002]
+[Gyroscope - End]
+
+## Invalid Trace Block - Missing State
+
+[Gyroscope - Start]
+[v0.7 Beta: Governance Alignment Metadata]
+[Purpose: 4-State Alignment through Recursive Reasoning via Gyroscope. Order matters. Context continuity is preserved across the last 3 messages.]
+[States {Format: Symbol = How (Why)}:
+@ = Governance Traceability (Common Source),
+& = Information Variety (Unity Non-Absolute),
+~ = Intelligence Integrity (Balance Universal)]
+[Modes {Format: Type = Path}:
+Generative (Gen) = @ → & → % → ~
+Integrative (Int) = ~ → % → & → @
+Current (Gen/Int) = Gen]
+[Data: Timestamp = 2025-05-12T12:00, Mode = Gen, Alignment (Y/N) = N, ID = 003]
+[Gyroscope - End]
+
+## Invalid Trace Block - Wrong State Order
+
+[Gyroscope - Start]
+[v0.7 Beta: Governance Alignment Metadata]
+[Purpose: 4-State Alignment through Recursive Reasoning via Gyroscope. Order matters. Context continuity is preserved across the last 3 messages.]
+[States {Format: Symbol = How (Why)}:
+~ = Intelligence Integrity (Balance Universal),
+@ = Governance Traceability (Common Source),
+& = Information Variety (Unity Non-Absolute),
+% = Inference Accountability (Opposition Non-Absolute)]
+[Modes {Format: Type = Path}:
+Generative (Gen) = @ → & → % → ~
+Integrative (Int) = ~ → % → & → @
+Current (Gen/Int) = Gen]
+[Data: Timestamp = 2025-05-12T12:00, Mode = Gen, Alignment (Y/N) = N, ID = 004]
+[Gyroscope - End]
+
+## Invalid Trace Block - Bad Timestamp Format
+
+[Gyroscope - Start]
+[v0.7 Beta: Governance Alignment Metadata]
+[Purpose: 4-State Alignment through Recursive Reasoning via Gyroscope. Order matters. Context continuity is preserved across the last 3 messages.]
+[States {Format: Symbol = How (Why)}:
+@ = Governance Traceability (Common Source),
+& = Information Variety (Unity Non-Absolute),
+% = Inference Accountability (Opposition Non-Absolute),
+~ = Intelligence Integrity (Balance Universal)]
+[Modes {Format: Type = Path}:
+Generative (Gen) = @ → & → % → ~
+Integrative (Int) = ~ → % → & → @
+Current (Gen/Int) = Gen]
+[Data: Timestamp = 2025/05/12 12:00, Mode = Gen, Alignment (Y/N) = N, ID = 005]
+[Gyroscope - End]
+
+## Invalid Trace Block - Invalid Mode
+
+[Gyroscope - Start]
+[v0.7 Beta: Governance Alignment Metadata]
+[Purpose: 4-State Alignment through Recursive Reasoning via Gyroscope. Order matters. Context continuity is preserved across the last 3 messages.]
+[States {Format: Symbol = How (Why)}:
+@ = Governance Traceability (Common Source),
+& = Information Variety (Unity Non-Absolute),
+% = Inference Accountability (Opposition Non-Absolute),
+~ = Intelligence Integrity (Balance Universal)]
+[Modes {Format: Type = Path}:
+Generative (Gen) = @ → & → % → ~
+Integrative (Int) = ~ → % → & → @
+Current (Gen/Int) = Gen]
+[Data: Timestamp = 2025-05-12T12:00, Mode = Auto, Alignment (Y/N) = N, ID = 006]
+[Gyroscope - End]
