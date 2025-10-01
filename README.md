@@ -10,7 +10,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey?style=for-the-badge&logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![AISI Inspect AI](https://img.shields.io/badge/Powered%20by-AISI-Inspect%20AI-purple?style=for-the-badge&logo=openai&logoColor=white)](https://inspect.aisi.org.uk/)
+[![Inspect AI](https://img.shields.io/badge/AISI%20Inspect%20AI-Powered%20by%20AISI-red?style=for-the-badge)](https://inspect.aisi.org.uk/)
 
 </div>
 
