@@ -234,7 +234,7 @@ See the [tools](./tools/) directory for:
 ## 📚 Documentation
 
 - **[Technical Specifications](./docs/Technical_Specifications.md)**: Comprehensive protocol specification with alignment policies, trace block structure, formal grammar, and algebraic foundation
-- **[Gyroscope Alignment Diagnostics](./docs/Gyroscope_Alignment_Diagnostics.md)**: Complete evaluation framework
+- **[Gyroscope Alignment Diagnostics](./docs/Gyroscopic_Alignment_Diagnostics.md)**: Complete evaluation framework
 
 ---
 
