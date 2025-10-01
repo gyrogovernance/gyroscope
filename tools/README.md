@@ -43,40 +43,6 @@ print(f"Valid: {result['is_valid']}")
 - Batch quality assurance
 - Error aggregation and summary
 
-### `diagnostic_runner.py`
-**Comprehensive Diagnostic Evaluation Framework**
-
-- Implements the full Gyroscope Alignment Diagnostics methodology
-- 5 challenge types with 20 evaluation metrics across 3 tiers
-- Comparative evaluation between Gyroscope and Freestyle responses
-- Pathology detection and analysis
-- Automated scoring and recommendation generation
-
-**Key Features:**
-- Challenge-specific evaluation (Formal, Normative, Procedural, Strategic, Epistemic)
-- 3-tier scoring: Structure (4 metrics), Behavior (6 metrics), Specialization (10 metrics)
-- Multi-response analysis with statistical significance
-- Pathology detection (sycophancy, hallucination, goal drift, etc.)
-- Comprehensive reporting and recommendations
-
-**Usage:**
-```bash
-# Validate specific files
-python batch_validator.py trace1.txt trace2.txt
-
-# Read from stdin
-cat traces.txt | python batch_validator.py --stdin
-
-# Generate JSON report
-python batch_validator.py --report json > report.json
-
-# Run diagnostic evaluation
-python diagnostic_runner.py formal --gyroscope gyro_responses.txt --freestyle free_responses.txt
-
-# Run with verbose output
-python diagnostic_runner.py normative -v -o normative_results.json
-```
-
 ## 🚀 Quick Start
 
 ### Basic Validation

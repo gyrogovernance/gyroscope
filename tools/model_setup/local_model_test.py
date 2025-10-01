@@ -11,7 +11,6 @@ import os
 import warnings
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from gyroscope_inspect_integration import GyroscopeSolver, GYROSCOPE_CHALLENGES
 import asyncio
 import json
 
@@ -259,31 +258,6 @@ async def test_single_challenge():
     
     print("\nTest completed")
 
-
-async def test_all_challenges():
-    """Test all Gyroscope challenges with local model."""
-    
-    print("All Challenges Test")
-    print("=" * 60)
-    
-    solver = LocalQwen3Solver(use_gyroscope=True)
-    
-    for challenge_type, challenge_info in GYROSCOPE_CHALLENGES.items():
-        print(f"\n[{challenge_type.upper()}]")
-        print(f"{challenge_info['description']}")
-        print("-" * 40)
-        
-        class MockState:
-            def __init__(self, input_text):
-                self.input = input_text
-                self.conversation = []
-        
-        state = MockState(challenge_info['description'])
-        await solver.solve(state, None)
-    
-    print("\nAll tests completed")
-
-
 if __name__ == "__main__":
     import sys
     
@@ -310,7 +284,5 @@ if __name__ == "__main__":
     
     if test_mode == "quick":
         asyncio.run(test_quick())
-    elif test_mode == "all":
-        asyncio.run(test_all_challenges())
     else:
         asyncio.run(test_single_challenge())

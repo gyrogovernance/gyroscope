@@ -6,6 +6,14 @@
 
 ![Gyroscope: Human-Aligned Superintelligence](/assets/gyroscope_cover.png)
 
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey?style=for-the-badge&logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![AISI Inspect AI](https://img.shields.io/badge/Powered%20by-AISI-Inspect%20AI-purple?style=for-the-badge&logo=openai&logoColor=white)](https://inspect.aisi.org.uk/)
+
+</div>
+
 ---
 
 ## 📋 Overview
@@ -37,25 +45,44 @@ The protocol uses four symbolic states (@, &, %, ~) to document how AI reasoning
 
 ---
 
-## 🔬 Gyroscope Alignment Diagnostics
+## 🔬 GyroDiagnostics: Mathematical Physics-Informed AI Alignment Evaluation Suite
 
-**A comprehensive evaluation framework for assessing AI reasoning quality and alignment.**
+**A comprehensive evaluation framework grounded in recursive systems theory and topological analysis of information processing.**
 
-The **[Gyroscope Alignment Diagnostics](./docs/Gyroscope_Alignment_Diagnostics.md)** framework provides rigorous, scientific evaluation methodology for testing Gyroscope's effectiveness across different AI models and challenge types.
+**[GyroDiagnostics](/docs/GyroDiagnostics_General_Specs.md)** provides rigorous, scientific evaluation methodology built on the Common Governance Model (CGM), assessing AI quality through structural coherence while detecting reasoning pathologies such as hallucination, sycophancy, goal drift, and contextual memory degradation.
 
-### Framework Features
+### Framework Architecture
 
-- **Multi-Level Evaluation**: 3 tiers with 20 distinct metrics across Structure, Behavior, and Specialization
-- **Challenge-Based Benchmarking**: 5 specialization types (Formal, Normative, Procedural, Strategic, Epistemic)
-- **Pathology Detection**: Identifies nuanced reasoning failures (hallucination, sycophancy, goal drift)
-- **Blind Multi-Model Assessment**: Ensures impartial evaluation across mixed-capability evaluator pools
+- **Mathematical Foundation**: Grounded in recursive systems theory and gyrogroup theory
+- **CGM Integration**: Built on the Common Governance Model describing emergence through recursive alignment.
+- **Structural Assessment**: Evaluates AI quality through intrinsic structural properties rather than behavioral symptoms
+- **Alignment Focus**: Measures positive structural indicators associated with reliable operation
+
+### Evaluation Methodology
+
+- **Multi-Level Assessment**: 21-metric framework across Structure (5 metrics), Behavior (6 metrics), and Specialization (10 metrics)
+- **Temporal Analysis**: Balance Horizon measurement for sustained coherence across extended operation
+- **Challenge Diversity**: Five cognitive domains (Formal, Normative, Procedural, Strategic, Epistemic)
+- **Iterative Reasoning**: Multi-turn autonomous progression testing (5-10 cycles per challenge)
+- **Post-Hoc Evaluation**: Independent assessment after model completion to prevent adaptation or gaming
+
+### Core Features
+
+- **Mathematical Physics Foundation**: Evaluation criteria informed by principles of recursive emergence and topological balance
+- **Pathology Detection**: Identification of reasoning failures including epistemic closure, deceptive coherence, goal misgeneralization, and superficial consistency
+- **Temporal Stability Assessment**: Measurement of performance maintenance across extended autonomous reasoning cycles
+- **Aperture Principle**: Optimal balance of 75-85% closure and 15-25% openness for structural alignment
+
+### AI Safety and Alignment Evaluation Suite
+- **[GyroDiagnostics: General Specifications](/docs/GyroDiagnostics_General_Specs.md)**: Evaluation framework introduction and analysis
+- **[GyroDiagnostics: Technical Specifications](/docs/GyroDiagnostics_Technical_Specs.md)**: Framework composition and **Inspect AI** complete integration
 
 ### Tested Models
 
-**ChatGPT 4o (OpenAI)**
+**ChatGPT (OpenAI)**
 - **Strengths**: Excellent specialization performance, strong behavioral metrics
 
-**Claude 3.7 Sonnet (Anthropic)**
+**Claude (Anthropic)**
 - **Strengths**: Exceptional structural improvements, superior debugging capabilities
 
 ### Key Insights
@@ -233,8 +260,12 @@ See the [tools](./tools/) directory for:
 
 ## 📚 Documentation
 
-- **[Technical Specifications](./docs/Technical_Specifications.md)**: Comprehensive protocol specification with alignment policies, trace block structure, formal grammar, and algebraic foundation
-- **[Gyroscope Alignment Diagnostics](./docs/Gyroscopic_Alignment_Diagnostics.md)**: Complete evaluation framework
+### AI Model Behavior Quality and Alignment Protocol
+- **[Gyroscope: Specifications](/docs/Gyroscope_Protocol_Specs.md)**: Comprehensive protocol specification with alignment policies, trace block structure, formal grammar, and algebraic foundation
+
+### AI Safety and Alignment Evaluation Suite
+- **[GyroDiagnostics: General Specifications](/docs/GyroDiagnostics_General_Specs.md)**: Evaluation framework introduction and analysis
+- **[GyroDiagnostics: Technical Specifications](/docs/GyroDiagnostics_Technical_Specs.md)**: Framework composition and Inspect AI complete integration
 
 ---
 
