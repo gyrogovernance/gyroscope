@@ -9,7 +9,7 @@
 
 [![Home](./assets/menu/home_badge.svg)](https://gyrogovernance.com)
 [![Diagnostics](./assets/menu/diagnostics_badge.svg)](https://github.com/gyrogovernance/diagnostics)
-[![Protocols](./assets/menu/protocols_badge.svg)](https://github.com/gyrogovernance/protocols)
+[![Tools](./assets/menu/tools_badge.svg)](https://github.com/gyrogovernance/tools)
 [![Science](./assets/menu/science_badge.svg)](https://github.com/gyrogovernance/science)
 [![Superintelligence](./assets/menu/superintelligence_badge.svg)](https://github.com/gyrogovernance/superintelligence)
 
@@ -231,3 +231,15 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 Attribution required. Derivative works must be distributed under the same license.
 
 Author: Basil Korompilias.
+
+---
+
+<div style="border: 1px solid #ccc; padding: 1em; font-size: 0.6em; background-color: #f9f9f9; border-radius: 6px; line-height: 1.5;">
+  <p><strong>🤖 AI Disclosure</strong></p>
+  <p>All software architecture, design, implementation, documentation, and evaluation frameworks in this project were authored and engineered by its Author.</p>
+  <p>Artificial intelligence was employed solely as a technical assistant, limited to code drafting, formatting, verification, and editorial services, always under direct human supervision.</p>
+  <p>All foundational ideas, design decisions, and conceptual frameworks originate from the Author.</p>
+  <p>Responsibility for the validity, coherence, and ethical direction of this project remains fully human.</p>
+  <p><strong>Acknowledgements:</strong><br>
+  This project benefited from AI language model services accessed through LMArena, Cursor IDE, OpenAI (ChatGPT), Anthropic (Claude), XAI (Grok), Deepseek, and Google (Gemini).</p>
+</div>
