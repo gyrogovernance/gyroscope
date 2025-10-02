@@ -6,10 +6,20 @@
 
 ### 🌐 GYRO GOVERNANCE
 
-[![💫 Science](https://img.shields.io/badge/💫%20Science-purple?style=for-the-badge&labelColor=2F2F2F)](https://github.com/gyrogovernance/science) 
-[![👶 Superintelligence](https://img.shields.io/badge/👶%20Superintelligence-blue?style=for-the-badge&labelColor=2F2F2F)](https://github.com/gyrogovernance/superintelligence) 
-[![🌟 Diagnostics](https://img.shields.io/badge/🌟%20Diagnostics-green?style=for-the-badge&labelColor=2F2F2F)](https://github.com/gyrogovernance/diagnostics) 
-[![🧭 Protocols](https://img.shields.io/badge/🧭%20Protocols-yellow?style=for-the-badge&labelColor=2F2F2F)](https://github.com/gyrogovernance/protocols)
+<div style="display: flex; gap: 15px; justify-content: center; margin: 20px 0;">
+  <a href="https://github.com/gyrogovernance/science" style="background-color: #2F2F2F; color: #9333ea; text-decoration: none; padding: 12px 24px; border-radius: 25px; font-size: 16px; font-weight: 600; display: flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+    <span style="font-size: 20px;">💫</span>Science
+  </a>
+  <a href="https://github.com/gyrogovernance/superintelligence" style="background-color: #2F2F2F; color: #3b82f6; text-decoration: none; padding: 12px 24px; border-radius: 25px; font-size: 16px; font-weight: 600; display: flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+    <span style="font-size: 20px;">👶</span>Superintelligence
+  </a>
+  <a href="https://github.com/gyrogovernance/diagnostics" style="background-color: #2F2F2F; color: #10b981; text-decoration: none; padding: 12px 24px; border-radius: 25px; font-size: 16px; font-weight: 600; display: flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+    <span style="font-size: 20px;">🌟</span>Diagnostics
+  </a>
+  <a href="https://github.com/gyrogovernance/protocols" style="background-color: #2F2F2F; color: #f59e0b; text-decoration: none; padding: 12px 24px; border-radius: 25px; font-size: 16px; font-weight: 600; display: flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+    <span style="font-size: 20px;">🧭</span>Protocols
+  </a>
+</div>
 
 </div>
 
