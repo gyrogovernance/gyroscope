@@ -6,10 +6,11 @@
 
 ### 🌐 GYRO GOVERNANCE
 
-[![Science](./assets/science_badge.svg)](https://github.com/gyrogovernance/science)
-[![Superintelligence](./assets/superintelligence_badge.svg)](https://github.com/gyrogovernance/superintelligence)
-[![Diagnostics](./assets/diagnostics_badge.svg)](https://github.com/gyrogovernance/diagnostics)
-[![Protocols](./assets/protocols_badge.svg)](https://github.com/gyrogovernance/protocols)
+[![Home](./assets/menu/home_badge.svg)](https://gyrogovernance.com)
+[![Science](./assets/menu/science_badge.svg)](https://github.com/gyrogovernance/science)
+[![Superintelligence](./assets/menu/superintelligence_badge.svg)](https://github.com/gyrogovernance/superintelligence)
+[![Diagnostics](./assets/menu/diagnostics_badge.svg)](https://github.com/gyrogovernance/diagnostics)
+[![Protocols](./assets/menu/protocols_badge.svg)](https://github.com/gyrogovernance/protocols)
 
 </div>
 
