@@ -6,10 +6,10 @@
 
 ### 🌐 GYRO GOVERNANCE
 
-[![💫 Science](https://img.shields.io/badge/%F0%9F%92%AB_Science-darkgray?style=for-the-badge&logo=&labelColor=2F2F2F&color=purple)](https://github.com/gyrogovernance/science)
-[![👶 Superintelligence](https://img.shields.io/badge/%F0%9F%91%B6_Superintelligence-darkgray?style=for-the-badge&logo=&labelColor=2F2F2F&color=blue)](https://github.com/gyrogovernance/superintelligence)
-[![🌟 Diagnostics](https://img.shields.io/badge/%F0%9F%8C%9F_Diagnostics-darkgray?style=for-the-badge&logo=&labelColor=2F2F2F&color=green)](https://github.com/gyrogovernance/diagnostics)
-[![🧭 Protocols](https://img.shields.io/badge/%F0%9F%A7%AD_Protocols-darkgray?style=for-the-badge&logo=&labelColor=2F2F2F&color=yellow)](https://github.com/gyrogovernance/protocols)
+[![Science](./assets/science_badge.svg)](https://github.com/gyrogovernance/science)
+[![Superintelligence](./assets/superintelligence_badge.svg)](https://github.com/gyrogovernance/superintelligence)
+[![Diagnostics](./assets/diagnostics_badge.svg)](https://github.com/gyrogovernance/diagnostics)
+[![Protocols](./assets/protocols_badge.svg)](https://github.com/gyrogovernance/protocols)
 
 </div>
 
