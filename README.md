@@ -1,4 +1,5 @@
-# AI Quality Governance: Gyroscopic Alignment Behaviour Lab
+# AI Quality Governance
+> **Gyroscopic Alignment Behaviour Lab**
 
 ![Gyroscope: Human-Aligned Superintelligence](/assets/gyroscope_cover.png)
 
@@ -89,6 +90,15 @@ The protocol uses four symbolic states (@, &, %, ~) to document how AI reasoning
 The empirical results reveal **universal reasoning enhancement** that transcends model architecture. This paradigm shift moves AI development from opaque statistical optimization to **transparent, auditable reasoning infrastructure**.
 
 **For the AI community, these findings establish structured reasoning protocols like Gyroscope as essential infrastructure for safe, reliable AI systems across all model architectures.**
+
+---
+
+### 📄 Research Publication
+
+**AI Quality Governance**  
+*Human Data Evaluation and Responsible AI Behavior Alignment*
+
+[![View Publication](https://img.shields.io/badge/📖%20View%20Publication-4A90E2?style=for-the-badge&labelColor=2F2F2F)](http://doi.org/10.17613/43wc1-mvn58)
 
 ---
 
