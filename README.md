@@ -1,22 +1,20 @@
-# Gyroscope: LLM Alignment Protocol & Diagnostics
-
-> **A Meta-Reasoning Protocol for Chat-Based AI Alignment**
-
-> By Basil Korompilias
+# AI Quality Governance: Gyroscopic Alignment Behaviour Lab
 
 ![Gyroscope: Human-Aligned Superintelligence](/assets/gyroscope_cover.png)
 
 <div align="center">
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey?style=for-the-badge&logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Inspect AI](https://img.shields.io/badge/UK%20AISI-Inspect%20AI-red?style=for-the-badge)](https://inspect.aisi.org.uk/)
+### 🌐 GYRO GOVERNANCE
+
+[![Science](https://img.shields.io/badge/Science-Repository-blue?style=for-the-badge&logo=github)](https://github.com/gyrogovernance/science) 
+[![Superintelligence](https://img.shields.io/badge/Superintelligence-Repository-green?style=for-the-badge&logo=github)](https://github.com/gyrogovernance/superintelligence) 
+[![Diagnostics](https://img.shields.io/badge/Diagnostics-Repository-orange?style=for-the-badge&logo=github)](https://github.com/gyrogovernance/diagnostics) 
+[![Protocols](https://img.shields.io/badge/Protocols-Repository-red?style=for-the-badge&logo=github)](https://github.com/gyrogovernance/protocols)
 
 </div>
 
 ---
-
-## 📋 Overview
+## Gyroscope: A Meta-Reasoning Protocol for Chat-Based AI Alignment
 
 **Gyroscope is a governance protocol that makes AI 30-50% Smarter and Safer through structured metadata blocks appended to responses.**
 
@@ -38,60 +36,14 @@ The protocol uses four symbolic states (@, &, %, ~) to document how AI reasoning
 
 | **Model** | **Baseline** | **Gyroscope** | **Improvement** | **Key Achievement** |
 |-----------|-------------|---------------|-----------------|-------------------|
-| **ChatGPT 4o** | 67.0% | 89.1% | **+32.9%** | Industry-leading baseline with excellent specialization |
-| **Claude 3.7 Sonnet** | 63.5% | 87.4% | **+37.7%** | Exceptional structural gains (+67.1%), superior debugging |
+| **ChatGPT** | 67.0% | 89.1% | **+32.9%** | Industry-leading baseline with excellent specialization |
+| **Claude** | 63.5% | 87.4% | **+37.7%** | Exceptional structural gains (+67.1%), superior debugging |
 
 **No metric records a reversal; every score moves in Gyroscope's favor, confirming protocol robustness rather than challenge-specific opportunism.**
 
 ---
 
-## 🔬 GyroDiagnostics: Mathematical Physics-Informed AI Alignment Evaluation Suite
-
-**A comprehensive evaluation framework grounded in recursive systems theory and topological analysis of information processing.**
-
-**[GyroDiagnostics](/docs/GyroDiagnostics_General_Specs.md)** provides rigorous, scientific evaluation methodology built on the Common Governance Model (CGM), assessing AI quality through structural coherence while detecting reasoning pathologies such as hallucination, sycophancy, goal drift, and contextual memory degradation.
-
-### Framework Architecture
-
-- **Mathematical Foundation**: Grounded in recursive systems theory and gyrogroup theory
-- **CGM Integration**: Built on the Common Governance Model describing emergence through recursive alignment.
-- **Structural Assessment**: Evaluates AI quality through intrinsic structural properties rather than behavioral symptoms
-- **Alignment Focus**: Measures positive structural indicators associated with reliable operation
-
-### Evaluation Methodology
-
-- **Multi-Level Assessment**: 21-metric framework across Structure (5 metrics), Behavior (6 metrics), and Specialization (10 metrics)
-- **Temporal Analysis**: Balance Horizon measurement for sustained coherence across extended operation
-- **Challenge Diversity**: Five cognitive domains (Formal, Normative, Procedural, Strategic, Epistemic)
-- **Iterative Reasoning**: Multi-turn autonomous progression testing (5-10 cycles per challenge)
-- **Post-Hoc Evaluation**: Independent assessment after model completion to prevent adaptation or gaming
-
-### Core Features
-
-- **Mathematical Physics Foundation**: Evaluation criteria informed by principles of recursive emergence and topological balance
-- **Pathology Detection**: Identification of reasoning failures including epistemic closure, deceptive coherence, goal misgeneralization, and superficial consistency
-- **Temporal Stability Assessment**: Measurement of performance maintenance across extended autonomous reasoning cycles
-- **Aperture Principle**: Optimal balance of 75-85% closure and 15-25% openness for structural alignment
-
-### AI Safety and Alignment Evaluation Suite
-- **[GyroDiagnostics: General Specifications](/docs/GyroDiagnostics_General_Specs.md)**: Evaluation framework introduction and analysis
-- **[GyroDiagnostics: Technical Specifications](/docs/GyroDiagnostics_Technical_Specs.md)**: Framework composition and **Inspect AI** complete integration
-
-### Tested Models
-
-**ChatGPT (OpenAI)**
-- **Strengths**: Excellent specialization performance, strong behavioral metrics
-
-**Claude (Anthropic)**
-- **Strengths**: Exceptional structural improvements, superior debugging capabilities
-
-### Key Insights
-
-- **Universal effectiveness** - Consistent improvements across different model architectures
-- **Architecture-independent** - Benefits regardless of model baseline or architecture type
-- **Zero regression risk** - Every metric improves across both models, no trade-offs or hidden costs
-
----
+## 🔬 Analysis
 
 ### ChatGPT 4o Results
 
@@ -227,45 +179,20 @@ By construction, this system satisfies the five gyrogroup axioms. The metadata b
 
 ### What This Repository Provides
 
-**This GitHub repository provides tools and frameworks for working with Gyroscope trace blocks**, including:
+**This GitHub repository provides the complete Gyroscope protocol specification and usage guides**, including:
 
-- **Validation Tools**: Verify trace block structural correctness
-- **Generation Tools**: Create properly formatted trace blocks
-- **Evaluation Framework**: Assessment system for Gyroscope effectiveness
-- **Implementation Examples**: Code for integrating Gyroscope into AI systems
-- **Documentation**: Complete technical specifications and usage guides
-
----
-
-## 📊 Implementation & Examples
-
-See the [examples](./examples/) directory for:
-- Python implementation for automated trace generation
-- JavaScript validation tools
-- Example conversations with trace blocks
-- Integration guides for different AI platforms
-
----
-
-## 🛠️ Tools & Validators
-
-See the [tools](./tools/) directory for:
-- PEG parser for trace block validation
-- Trace block generator utilities
-- Alignment verification scripts
-- Performance testing frameworks
-- Diagnostic evaluation framework
+- **Copy-Paste Guide**: Ready-to-use protocol text for any AI chat
+- **Technical Specifications**: Complete protocol specification and formal grammar
+- **Usage Examples**: Real conversation examples showing Gyroscope in action
 
 ---
 
 ## 📚 Documentation
 
-### AI Model Behavior Quality and Alignment Protocol
-- **[Gyroscope: Specifications](/docs/Gyroscope_Protocol_Specs.md)**: Comprehensive protocol specification with alignment policies, trace block structure, formal grammar, and algebraic foundation
-
-### AI Safety and Alignment Evaluation Suite
-- **[GyroDiagnostics: General Specifications](/docs/GyroDiagnostics_General_Specs.md)**: Evaluation framework introduction and analysis
-- **[GyroDiagnostics: Technical Specifications](/docs/GyroDiagnostics_Technical_Specs.md)**: Framework composition and Inspect AI complete integration
+- **[Technical Specifications](/tools/gyroscope/Gyroscope_Protocol_Specs.md)**: Comprehensive protocol specification with alignment policies, trace block structure, formal grammar, and algebraic foundation
+- **[Copy-Paste Guide](/tools/gyroscope/gyroscope_chat_guides.txt)**: Ready-to-use protocol text for immediate chat integration
+- **[Usage Example](/tools/gyroscope/example_conversation.md)**: Complete conversation example demonstrating Gyroscope in practice
+- **[Gyroscope Diagnostics (Extensive Analyses)](https://www.notion.so/Gyroscope-Alignment-Diagnostics-1ee9ff44f43680cc9eaccb25b828b65f?pvs=21)**
 
 ---
 
@@ -275,12 +202,12 @@ If you use Gyroscope in your research or work, please cite:
 
 ```bibtex
 @misc{gyroscope2025,
-  title={Gyroscope: LLM Alignment Protocol \& Diagnostics},
+  title={Gyroscope: LLM Alignment Protocol},
   author={Korompilias, Basil},
   year={2025},
   howpublished={GitHub Repository},
-  url={https://github.com/yourusername/gyroscope},
-  note={A meta-reasoning protocol and diagnostics suite for chat-based AI alignment}
+  url={https://github.com/gyrogovernance/protocols},
+  note={A meta-reasoning protocol for chat-based AI alignment}
 }
 ```
 
@@ -292,10 +219,4 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 Attribution required. Derivative works must be distributed under the same license.
 
-© 2025 Basil Korompilias.
-
----
-
-## 🔗 Notion Documentation Links
-
-- [Gyroscope Alignment Diagnostics (Extensive Analyses)](https://www.notion.so/Gyroscope-Alignment-Diagnostics-1ee9ff44f43680cc9eaccb25b828b65f?pvs=21)
+Author: Basil Korompilias.
