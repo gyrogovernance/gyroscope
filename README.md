@@ -212,7 +212,7 @@ By construction, this system satisfies the five gyrogroup axioms. The metadata b
 If you use Gyroscope in your research or work, please cite:
 
 ```bibtex
-@misc{gyroscope2025,
+@misc{gyrogovernancetoolsrepo,
   title={Gyroscope: LLM Alignment Protocol},
   author={Korompilias, Basil},
   year={2025},
