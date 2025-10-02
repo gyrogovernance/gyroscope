@@ -4,7 +4,7 @@
 
 <div align="center">
 
-### 🌐 GYRO GOVERNANCE
+### G Y R O G O V E R N A N C E
 
 [![Home](./assets/menu/home_badge.svg)](https://gyrogovernance.com)
 [![Science](./assets/menu/science_badge.svg)](https://github.com/gyrogovernance/science)
