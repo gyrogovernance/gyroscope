@@ -6,10 +6,10 @@
 
 ### 🌐 GYRO GOVERNANCE
 
-[![Science](https://img.shields.io/badge/Science-black?style=for-the-badge&labelColor=black&color=purple)](https://github.com/gyrogovernance/science) 
-[![Superintelligence](https://img.shields.io/badge/Superintelligence-black?style=for-the-badge&labelColor=black&color=blue)](https://github.com/gyrogovernance/superintelligence) 
-[![Diagnostics](https://img.shields.io/badge/Diagnostics-black?style=for-the-badge&labelColor=black&color=green)](https://github.com/gyrogovernance/diagnostics) 
-[![Protocols](https://img.shields.io/badge/Protocols-black?style=for-the-badge&labelColor=black&color=yellow)](https://github.com/gyrogovernance/protocols)
+[![💫 Science](https://img.shields.io/badge/Science-black?style=for-the-badge&labelColor=black&color=purple)](https://github.com/gyrogovernance/science) 
+[![👶 Superintelligence](https://img.shields.io/badge/Superintelligence-black?style=for-the-badge&labelColor=black&color=blue)](https://github.com/gyrogovernance/superintelligence) 
+[![🌟 Diagnostics](https://img.shields.io/badge/Diagnostics-black?style=for-the-badge&labelColor=black&color=green)](https://github.com/gyrogovernance/diagnostics) 
+[![🧭 Protocols](https://img.shields.io/badge/Protocols-black?style=for-the-badge&labelColor=black&color=yellow)](https://github.com/gyrogovernance/protocols)
 
 </div>
 
