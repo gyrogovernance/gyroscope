@@ -217,7 +217,7 @@ If you use Gyroscope in your research or work, please cite:
   author={Korompilias, Basil},
   year={2025},
   howpublished={GitHub Repository},
-  url={https://github.com/gyrogovernance/protocols},
+  url={https://github.com/gyrogovernance/tools},
   note={A meta-reasoning protocol for chat-based AI alignment}
 }
 ```
