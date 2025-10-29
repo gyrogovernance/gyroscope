@@ -1,7 +1,7 @@
 # AI Quality Governance
 > **Gyroscopic Alignment Behaviour Lab**
 
-![Gyroscope: Human-Aligned Superintelligence](/assets/gyroscope_cover.png)
+![Gyroscope: Human-Aligned Superintelligence](/assets/gyro_cover_tools.png)
 
 <div align="center">
 
